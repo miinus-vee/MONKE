@@ -10,21 +10,34 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/625f24cdea.js" crossorigin="anonymous"></script>  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Ysabeau:wght@1&display=swap" rel="stylesheet">  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 
 </head>
 
 <body>
-  <div id="loader">  </div>
 
+  <!-- LOADER -->
+  <div id="loader"> </div>
+
+
+
+  <!-- HEADER -->
+  <div id="begin"></div>
   <header>
     <ul>
-      <li><a href="#" class="active">Home</a></li>
-      <li><a href="#">Info</a></li>
-      <li><a href="#">Purchase</a></li>
-      <li><a href="#">About</a></li>
+      <li><a href="#Parallax">Home</a></li>
+      <li><a href="#info">Info</a></li>
+      <li><a href="#order">Purchase</a></li>
+      <li><a href="#foot">About</a></li>
     </ul>
   </header>
+
+
+
+  <!-- PARALLAX -->
 
   <section class="parallax">
 
@@ -39,30 +52,300 @@
     <img src="imgs/plant.png" id="plant">
   </section>
 
+
+  <!-- INFO -->
+<section id="info"></section>
+    <!-- GALLERY -->
+    <section class="slideshow">
+      <br><br>
+      <h3 id="text-box2">GALLERY</h3>
+  
+      <br><br><br><br><br><br>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="imgs/gal1.jpg" style="width: 100%" height="500">
+        </div>
+        <div class="mySlides fade">
+          <img src="imgs/3.jpg" style="width: 100%" height="500">
+        </div>
+        <div class="mySlides fade">
+          <img src="imgs/23.png" style="width: 100%" height="500">
+        </div>
+        <div class="mySlides fade">
+          <img src="imgs/22.png" style="width: 100%" height="500">
+        </div>
+        <div class="mySlides fade">
+          <img src="imgs/24.png" style="width: 100%" height="500">
+        </div>
+  
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+      <br><br><br>
+  
+    </section>
+
+
+
+
   <section class="sec">
-    <h2>GALLERY</h2>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ipsam cumque omnis at incidunt iusto ut
-      doloribus sunt distinctio iste eaque sequi accusamus repellat odio perferendis laborum cupiditate, vitae
-      consequuntur!<br><br>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste autem minus. Unde assumenda officia doloribus
-      reprehenderit minus, quos pariatur necessitatibus culpa saepe cupiditate tenetur neque ipsa placeat ullam
-      nihil.<br><br>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, quae libero, aperiam voluptate perspiciatis
-      a facilis modi ullam laboriosam aut, cupiditate aspernatur dolorem? Saepe deserunt temporibus aperiam doloremque
-      magnam expedita!<br><br>
+    
+    <div id="aSide">
+      <!-- <model-viewer src="assets/Prerseverance.glb" alt="ROVER" auto-rotate camera-controls ar ios-src="assets/Perseverance.glb"></model-viewer> -->
+      
+
+    </div>
+
+
+
+
+
+    <p><br><br><br>
+      This is a cutting-edge exploration vehicle designed to climb and explore the caves on Mars and other
+      planets. Equipped with advanced sensors and analytical tools, MONKE is capable of collecting and analyzing samples
+      from the caves to provide valuable data for scientific research.<br><br>
+
+      The rover is built with a durable and lightweight chassis, which allows it to navigate challenging terrain with
+      ease. It is also equipped with a range of scientific instruments, including cutting-edge sensors, a drill, and a camera
+      system, to detect and analyze a wide range of geological features, including mineral deposits, rock formations and the environment inside the cave.<br><br>
+
+      One of the key features of the MONKE rover is its ability to climb the walls and ceilings of caves. This is
+      achieved through a specialized CLAW SYSTEM and treads that can grip onto the rough surfaces of the cave walls
+      and propel the rover forward.<br><br>
+
+      Once inside the cave, the MONKE rover can collect samples using its drill and analyze them using its onboard
+      bio-box. This allows scientists to study the composition of the cave and potentially discover new minerals or
+      other resources.<br><br>
+
+      Overall, the MONKE rover represents a major breakthrough in planetary exploration technology. By providing a
+      powerful new tool for studying caves on Mars and other planets, it is helping to expand our understanding of the
+      universe and unlock new possibilities for space exploration.<br><br><br>
+
+</p>
+
+<p id="spec">
+      Size: 20x20x30 cm3 <br>
+      Weight: 15 Kgs<br>
+      Power source: Lipo batteries<br>
+      Attachments: Cameras, sensors, drillers<br>
+
     </p>
+
+    
+   
+
+
+
   </section>
+
+
+
+  <section class="usp">
+    <h1 class="glow">WHAT SETS US APART</h1>
+
+        <p id="w">AUTOMATION IS THE<br>
+          COMPETITIVE ADVANTAGE YOU NEED</p>
+
+
+          <div class="cards">
+            <div class="card card1">
+                <div class="container">
+                    <img src="imgs/las vegas.jpg" alt="ckaw">
+                </div>
+                <div class="details">
+                    <h3>TWO CLAW SYSTEM</h3>
+                    <p>The rover's dual-claw system provides enhanced gripping and manipulation abilities, which makes it more versatile and efficient than other rovers that have a single claw or no claw at all.</p>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="container">
+                    <img src="imgs/newyork.jpg" alt="mob">
+                </div>
+                <div class="details">
+                    <h3>VERSATILE MOBILITY</h3>
+                    <p>The rover's versatile mobility allows it to explore various terrains, including cave walls and mining areas, making it more adaptable to different environments than other rovers with limited mobility.</p>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="container">
+                    <img src="imgs/orde.jpg" alt="rob">
+                </div>
+                <div class="details">
+                    <h3>ROBUST DESIGN</h3>
+                    <p> The rover's robust design and construction make it more durable in harsh environments than other rovers with weaker or less durable materials.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+  </section>
+  
+
+
+
+
+
+
+
+  <div id="order"></div>
+  <section class="order">
+        <h1 id="oord">I WANT TO PLACE AN ORDER</h1>
+   
+        <div class="form-container">
+            <form action="#" method="POST">
+              
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="firstName">First Name</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="Enter first name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="Enter last name" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Enter phone number" required>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="jobTitle">Job Title</label>
+                  <input type="text" class="form-control" id="jobTitle" placeholder="Enter job title" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="company">Company</label>
+                  <input type="text" class="form-control" id="company" placeholder="Enter company name" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="purpose">Purpose to Buy</label>
+                <textarea class="form-control" id="purpose" rows="3" placeholder="Enter purpose to buy" required></textarea>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="agreeToTerms" required>
+                <label class="form-check-label" for="agreeToTerms">I agree to the <a href="#">Terms & Conditions</a></label>
+              </div>
+              <button type="submit" class="btn btn-primary">Proceed to Pay</button>
+            </form>
+          </div>
+          
+        </section>
+    
+
+
+
+<div id="foot"></div>
+
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 col-sm-6">
+                  <h4>About Us</h4>
+                  <p>We are a rover selling company that specializes in providing high-quality bots to clients <br>
+                    all around the world. Our team of experts is dedicated to creating innovative and customized bots<br>
+                     that meet the specific needs of our clients.</p>
+                  <p>Monke is a such bot that is can be used as cave exploration or mining purposes.</p>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                  <br>
+                    <h4>Contact Us</h4>
+                  <p id="add">Rudra Lab<br>Main Campus<br>Phone: 0120-41345656<br>Email: monkeinfo@gmail.com</p>
+                <br></div>
+                
+                <div class="col-md-4 col-sm-6">
+                  <h4>Connect with Us</h4>
+                  <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li><br><br><br>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <a href="#begin" class="back-to-top"></a>
+
+            <div class="footer-bottom">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <span>&copy; 2023 Monke.</span>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </footer>
+               
+
+
+
+
+
+
+
+
+
 
   <script src="script.js"></script>
 
   <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+
+  <script>
     var loader = document.getElementById("loader");
     window.addEventListener("load", function () {
-      loader.style.display = "none";
+      loader.style.display = "block";
+      setTimeout(function () {
+    loader.style.display = "none";
+  }, 3000);
     })
+    
   </script>
-  
+
 </body>
 
 </html>
